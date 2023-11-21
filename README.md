@@ -28,8 +28,8 @@ create-blb will guide you through the entire setup of blb automatically.<br/>
 2. Make sure your project has a package.json
 3. Add this to your package.json's scripts:
 ```json
-"build": "blb-dev",
-"dev": "blb-prod"
+"build": "blb-prod",
+"dev": "blb-dev"
 ```
 4. Create a `src/index.lua` file.
 5. Make sure you enter the `bundler` directory and run `pnpm i`
